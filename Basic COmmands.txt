@@ -1,0 +1,11 @@
+# BASIC ARITHMETIC OPERATORS
+2-5 # subtraction
+6/3 # division
+3+2*5 # note order of operations exists
+(3+2)*5 # if you need, force operations using
+ # redundant parentheses
+4^3 # raise to a power is ^
+exp(4) # e^4 = 54.598 (give or take)
+log(2.742) # natural log of 2.74
+log10(1000) # common log of
+Pi #3.14

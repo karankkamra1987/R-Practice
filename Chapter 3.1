@@ -1,0 +1,15 @@
+subject_name <- c("John Doe", "Jane Doe", "Steve Graves")
+temprature <- c(98.1, 98.6, 101.4)
+flu_status<- c(FALSE, FALSE, TRUE)
+gender <- fac
+tor(c("MALE", "FEMALE", "MALE"))
+blood<- factor(c("O
+", "AB", "A"), levels= c("A", "B", "AB", "O"))
+symptoms<- factor(c("SEVERE", "MILD", "MODERATE"), levels= c("MILD", "MODERATE", "SEVERE"), ordered= TRUE)
+subject1<- list(fullname = subject_name[1],temprature= temprature[1], flu_stastus= flu_status[1], gender = gender[1], blood= blood[1], symptoms= symptoms[1])
+pt_data<- data.frame(subject_name, temprature, flu_status, gender, blood, symptoms, stringASFactors= FALSE)
+pt_data [c("temprature", "blood")]
+pt_data[2:3]
+save(pt_data, file= "D:\Personal\Data Science\R\Data\pt_data.RData")
+
+load("D:/Personal/Data Science/R/Data/pt_data.RData")
